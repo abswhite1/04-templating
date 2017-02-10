@@ -19,6 +19,9 @@
         - If your object doesn't have values you need yet, you can add those properties in the model.
     -->
     <script id="article-template" type="text/x-handlebars-template">
+      <h2>{{title}}</h2>
+      <p>By <a href="{{authorUrl}}">{{author}}</a> {{publishStatus}}</p>
+      {{{body}}}
     </script>
 
   </head>
